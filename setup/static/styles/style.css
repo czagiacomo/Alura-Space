@@ -132,6 +132,7 @@ table {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    /*justify-content: space-around; - Alinhamento ideal/preferível  */
     align-content: space-between;
 }
 
