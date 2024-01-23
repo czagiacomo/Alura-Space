@@ -1,7 +1,6 @@
 {% extends 'shared/base.html' %}
 {% load static %}
 {% block content %}
-
             <section class="galeria" style="margin-left: 5em">
                 <form action="{% url 'editar_imagem' foto_id %}" method="POST" enctype="multipart/form-data">
                     {% csrf_token %}
